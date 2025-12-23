@@ -1,5 +1,5 @@
-# Dell-Latitude-E5430-Hackintosh
-This repository and project hosts the files necessary to boot macOS (Catalina, BigSur, Monterey & Ventura) successfully on the Dell Latitude E5430 Laptop 
+# Latitude-E5430-Hackintosh
+This repository and project hosts the files necessary to boot macOS (Catalina, BigSur, Monterey, Ventura, Sonoma, Sequoia & Tahoe) successfully on the Dell Latitude E5430 Laptop 
 ![Dell Latitude E5430](https://github.com/BluePurplePro/Dell-Latitude-E5430-with-i5-3320M-Hackintosh-MacOS-Catalina/assets/84092284/dc9655ca-ae35-4149-9db8-462ecfeacc6c)
 
 # DISCLAIMER
@@ -13,7 +13,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 - And many more awesome people in the hackintosh community
   
 # Deployment
-To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS.
+To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS. Put pendrive IN BACK SLOT OF LAPTOP and boot it!
 
 # Hardware
 - The hardware in this Machine is as follows:
@@ -86,8 +86,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 - Battery Status
 - DVD Drive
 - USB ports
-## Partially working:
-- Sleep (for some reason sleep is broken in Windows on my Laptop, so MacOS is no exception)
+- Sleep (sometimes)
 
 ## Known issue(s):
 - Some apps like Chess.app, Safari.app, etc got graphic artifacts/flickering when entering fullscreen mode (the flickering issue only affect 1366x768 display, 1600x900 one does not have this issue)
@@ -98,7 +97,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 
 ## Not working:
 - Airplane Mode Switch
-- Airdrop (Intel Wireless)
+- Airdrop (only on ventura and lower)
 - VGA Analog Output (IvyBridge)
 - AppleIntelPowerManagement (CFG Lock)
 > [!NOTE]
@@ -106,6 +105,6 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 
 _Not tested_:
 - Express Card Expansion
-- SD Card Reader (Mine is broken)
-- Docking Station (I don't have a Docking Station for Dell Latitude E5430)
+- SD Card Reader 
+- Docking Station 
 - SIM Slot (I don't have a WWAN Card, but [someone does make it work in MacOS though](https://github.com/xmm7360/xmm7360-usb-modeswitch))
