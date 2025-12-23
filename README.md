@@ -13,8 +13,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 - And many more awesome people in the hackintosh community
   
 # Deployment
-To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS. Put pendrive IN BACK SLOT OF LAPTOP and boot it!
-
+To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID , then save config.plist, Now download an vanilla image from [Olarila](https://olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) and use balenaetcher to flash it on your drive. Now if it boots (dont forget to use back ports) choose "Install MacOS ..." and now click disk utily and format your disk. Now click "Reinstall MacOS ..." choose your drive and here you go!
 # Hardware
 - The hardware in this Machine is as follows:
   - CPU: Intel Core i5-3320M
